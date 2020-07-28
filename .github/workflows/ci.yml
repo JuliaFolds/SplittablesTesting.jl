@@ -13,6 +13,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        # Edit ../../.mergify.yml when adding a new version.
         version:
           - '1.0'
           - '1.4'
